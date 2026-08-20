@@ -1,5 +1,5 @@
 class Selvage < Formula
-  desc "AI-powered autonomous code implementation pipeline"
+  desc "Autonomous code implementation pipeline with multi-model review"
   homepage "https://selvage.run"
   version "0.1.0"
   license :cannot_represent
