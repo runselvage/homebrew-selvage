@@ -5,21 +5,21 @@ class Selvage < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/runselvage/selvage/releases/download/v0.2.17/selvage-darwin-arm64.tar.gz"
-      sha256 "5ad481acf639a6de5b31e3494a6a0ac58ea62ad1d2b1f20c9f042ec6597a4189"
+      url "https://github.com/runselvage/selvage/releases/download/v0.2.18/selvage-darwin-arm64.tar.gz"
+      sha256 "1af705dd7366dfd96a1ebec47dbaa5027d95e7bbf8ad374b831b3071d9bde650"
     else
-      url "https://github.com/runselvage/selvage/releases/download/v0.2.17/selvage-darwin-amd64.tar.gz"
-      sha256 "bf84eac0c9228edda7fa73b6590ade24e29e40b6d7498fd818677a1c1a500f58"
+      url "https://github.com/runselvage/selvage/releases/download/v0.2.18/selvage-darwin-amd64.tar.gz"
+      sha256 "2f5a19cfaf402bb7909809b2a06bfe634a52cacb4cd841f9400f9dedd4f067f1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/runselvage/selvage/releases/download/v0.2.17/selvage-linux-arm64.tar.gz"
-      sha256 "9fbb227731b0bc8e05d0978a473bbd891c930e5b8603693024c802b391fc71f2"
+      url "https://github.com/runselvage/selvage/releases/download/v0.2.18/selvage-linux-arm64.tar.gz"
+      sha256 "48fde0a5da90b7b9488007b4587f177baec490057ba982a40f0bd8b95db343ab"
     else
-      url "https://github.com/runselvage/selvage/releases/download/v0.2.17/selvage-linux-amd64.tar.gz"
-      sha256 "0a1f9595b4a74177fa11834bbc66cd7b0e580273ff004a9030a9861064ee1278"
+      url "https://github.com/runselvage/selvage/releases/download/v0.2.18/selvage-linux-amd64.tar.gz"
+      sha256 "e9987f0dd07970e776ca4631879fd256b4450623dd7c57e9284ca4b5db6762df"
     end
   end
 
